@@ -1,5 +1,116 @@
 [
     {
+        "name": "nikic/fast-route",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/FastRoute.git",
+            "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+            "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35|~5.7"
+        },
+        "time": "2018-02-13T20:26:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FastRoute\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov",
+                "email": "nikic@php.net"
+            }
+        ],
+        "description": "Fast request router for PHP",
+        "keywords": [
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "rdlowrey/auryn",
+        "version": "v1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rdlowrey/auryn.git",
+            "reference": "8c4dc07943599ba84f4f89eab8cf43efeef80395"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/8c4dc07943599ba84f4f89eab8cf43efeef80395",
+            "reference": "8c4dc07943599ba84f4f89eab8cf43efeef80395",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "athletic/athletic": "~0.1",
+            "fabpot/php-cs-fixer": "~1.9",
+            "phpunit/phpunit": "^4.7"
+        },
+        "time": "2017-05-15T06:26:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Auryn\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dan Ackroyd",
+                "email": "Danack@basereality.com",
+                "homepage": "http://www.basereality.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Levi Morrison",
+                "email": "levim@php.net",
+                "homepage": "http://morrisonlevi.github.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Daniel Lowrey",
+                "email": "rdlowrey@gmail.com",
+                "homepage": "https://github.com/rdlowrey",
+                "role": "Creator / Main Developer"
+            }
+        ],
+        "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
+        "homepage": "https://github.com/rdlowrey/auryn",
+        "keywords": [
+            "dependency injection",
+            "dic",
+            "ioc"
+        ]
+    },
+    {
         "name": "symfony/http-foundation",
         "version": "v4.2.5",
         "version_normalized": "4.2.5.0",
@@ -54,6 +165,66 @@
         ],
         "description": "Symfony HttpFoundation Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.11.0",
+        "version_normalized": "1.11.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "82ebae02209c21113908c229e9883c419720738a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+            "reference": "82ebae02209c21113908c229e9883c419720738a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2019-02-06T07:57:58+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.11-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            },
+            {
+                "name": "Gert de Pagter",
+                "email": "backendtea@gmail.com"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
     },
     {
         "name": "symfony/polyfill-mbstring",
@@ -183,6 +354,75 @@
             "debugger",
             "nette",
             "profiler"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v2.7.4",
+        "version_normalized": "2.7.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "ed9c49220e09bfaeb1ba4d48077c08a7b09908dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed9c49220e09bfaeb1ba4d48077c08a7b09908dd",
+            "reference": "ed9c49220e09bfaeb1ba4d48077c08a7b09908dd",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0",
+            "symfony/polyfill-ctype": "^1.8",
+            "symfony/polyfill-mbstring": "^1.3"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "^2.7",
+            "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+        },
+        "time": "2019-03-23T14:28:58+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "https://twig.symfony.com/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "templating"
         ]
     }
 ]

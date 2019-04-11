@@ -8,22 +8,45 @@ class ComposerStaticInit34d337e40e696bb9385aa4207e52ad63
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '19a7e2c3b1d506dcdc1b60aab8e102e4' => __DIR__ . '/..' . '/tracy/tracy/src/Tracy/shortcuts.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'SocialNews\\' => 11,
+        ),
+        'F' => 
+        array (
+            'FastRoute\\' => 10,
+        ),
+        'A' => 
+        array (
+            'Auryn\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
         'Symfony\\Component\\HttpFoundation\\' => 
         array (
@@ -32,6 +55,24 @@ class ComposerStaticInit34d337e40e696bb9385aa4207e52ad63
         'SocialNews\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'FastRoute\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Auryn\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rdlowrey/auryn/lib',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
         ),
     );
 
@@ -59,6 +100,7 @@ class ComposerStaticInit34d337e40e696bb9385aa4207e52ad63
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit34d337e40e696bb9385aa4207e52ad63::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit34d337e40e696bb9385aa4207e52ad63::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit34d337e40e696bb9385aa4207e52ad63::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit34d337e40e696bb9385aa4207e52ad63::$classMap;
 
         }, null, ClassLoader::class);

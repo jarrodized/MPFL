@@ -6,7 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
     'SocialNews\\' => array($baseDir . '/src'),
+    'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
+    'Auryn\\' => array($vendorDir . '/rdlowrey/auryn/lib'),
 );
