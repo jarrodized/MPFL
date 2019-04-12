@@ -5,6 +5,7 @@ namespace SocialNews\Submission\Presentation;
 use SocialNews\Framework\Csrf\StoredTokenValidator;
 use SocialNews\Framework\Csrf\Token;
 use SocialNews\Submission\Application\SubmitLink;
+use SocialNews\Framework\Rbac\AuthenticatedUser;
 
 final class SubmissionForm
 {
@@ -51,8 +52,8 @@ final class SubmissionForm
         return $errors;
     }
 
-    public function toCommand(): SubmitLink
+    public function toCommand(AuthenticatedUser $author): SubmitLink
     {
-        return new SubmitLink($this->url, $this->title);
+        return new SubmitLink($author->getId(), $this->url, $this->title);
     }
 }
