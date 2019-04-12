@@ -2,46 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e8faaf6-98a4-4afa-a9cb-ad26c4d17385" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/Migrate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Migration201904102131.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Csrf/StoredTokenReader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Csrf/StoredTokenValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Csrf/SymfonySessionTokenStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Csrf/Token.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Csrf/TokenStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Dbal/ConnectionFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Dbal/DatabaseUrl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Framework/Rendering/TemplateDirectory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FrontPage/Application/Submission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FrontPage/Application/SubmissionsQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FrontPage/Infrastructure/DbalSubmissionsQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Application/SubmitLink.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Application/SubmitLinkHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Domain/Submission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Domain/SubmissionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Infrastructure/DbalSubmissionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Presentation/SubmissionForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Submission/Presentation/SubmissionFormFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/Domain/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/Domain/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/FlashMessages.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/FrontPage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Submission.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Migration201904111711.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Application/NicknameTakenQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Application/RegisterUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Application/RegisterUserHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Infrastructure/DbalNicknameTakenQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Infrastructure/DbalUserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Presentation/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Presentation/RegisterUserForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Presentation/RegisterUserFormFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Presentation/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Registration.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../no-framework/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MPFL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MPFL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Migrate.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Migrate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dependencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dependencies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Framework/Rendering/TwigTemplateRendererFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Framework/Rendering/TwigTemplateRendererFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontPage/Presentation/FrontPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontPage/Presentation/FrontPageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Submission/Presentation/SubmissionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Submission/Presentation/SubmissionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Domain/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Domain/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finances/financeapp/financeapp" beforeDir="false" afterPath="$PROJECT_DIR$/../finances/financeapp/financeapp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myprojects/node-projects/hello-world/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myprojects/node-projects/hello-world/package.json" beforeDir="false" />
@@ -62,37 +41,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Domain/Submission.php">
+        <entry file="file://$PROJECT_DIR$/src/User/Infrastructure/DbalUserRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#73#95#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Application/SubmitLink.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Infrastructure/DbalSubmissionRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#79#108#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -100,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Dependencies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="79" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
+            <state relative-caret-position="585">
+              <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
               <folding>
                 <element signature="e#32#84#0#PHP" expanded="true" />
               </folding>
@@ -110,70 +68,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Application/SubmitLinkHandler.php">
+        <entry file="file://$PROJECT_DIR$/src/User/Presentation/RegisterUserForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="664">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
-                <element signature="e#76#130#0#PHP" expanded="true" />
+                <element signature="e#73#124#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Presentation/SubmissionController.php">
+        <entry file="file://$PROJECT_DIR$/templates/Login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-              <folding>
-                <element signature="e#79#133#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Presentation/SubmissionForm.php">
+        <entry file="file://$PROJECT_DIR$/src/User/Presentation/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#79#130#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User/Domain/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="e#67#89#0#PHP" expanded="true" />
+                <element signature="e#71#123#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/User/Domain/UserRepository.php">
+        <entry file="file://$PROJECT_DIR$/src/Routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="480">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Submission/Presentation/SubmissionFormFactory.php">
+        <entry file="file://$PROJECT_DIR$/src/User/Presentation/RegisterUserFormFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="360">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
-                <element signature="e#77#128#0#PHP" expanded="true" />
+                <element signature="e#73#124#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/User/Application/NicknameTakenQuery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/User/Infrastructure/DbalNicknameTakenQuery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/Migrate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -186,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Submission/Presentation/SubmissionController" />
         <option value="$PROJECT_DIR$/src/Framework/Rendering/TemplateRenderer.php" />
         <option value="$PROJECT_DIR$/src/Framework/Rendering/TwigTemplateRenderer.php" />
@@ -202,10 +171,8 @@
         <option value="$PROJECT_DIR$/src/Framework/Dbal/ConnectionFactory.php" />
         <option value="$PROJECT_DIR$/storage/.gitignore" />
         <option value="$PROJECT_DIR$/migrations/Migration201904102131.php" />
-        <option value="$PROJECT_DIR$/bin/Migrate.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/FrontPage/Infrastructure/DbalSubmissionsQuery.php" />
-        <option value="$PROJECT_DIR$/src/Routes.php" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/csrf.html" />
         <option value="$PROJECT_DIR$/src/Framework/Csrf/TokenStorage.php" />
         <option value="$PROJECT_DIR$/src/Framework/Csrf/SymfonySessionTokenStorage.php" />
@@ -219,15 +186,46 @@
         <option value="$PROJECT_DIR$/src/Submission/Domain/SubmissionRepository.php" />
         <option value="$PROJECT_DIR$/src/Submission/Application/SubmitLink.php" />
         <option value="$PROJECT_DIR$/src/Submission/Application/SubmitLinkHandler.php" />
-        <option value="$PROJECT_DIR$/src/Dependencies.php" />
         <option value="$PROJECT_DIR$/src/Submission/Infrastructure/DbalSubmissionRepository.php" />
         <option value="$PROJECT_DIR$/src/Submission/Presentation/SubmissionForm.php" />
         <option value="$PROJECT_DIR$/src/Submission/Presentation/SubmissionFormFactory.php" />
         <option value="$PROJECT_DIR$/src/Submission/Presentation/SubmissionController.php" />
-        <option value="$PROJECT_DIR$/src/User/Domain/User.php" />
         <option value="$PROJECT_DIR$/src/User/Domain/UserRepository.php" />
+        <option value="$PROJECT_DIR$/src/User/Application/RegisterUser.php" />
+        <option value="$PROJECT_DIR$/src/User/Application/RegisterUserHandler.php" />
+        <option value="$PROJECT_DIR$/templates/Registration.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/Presentation/RegistrationController.php" />
+        <option value="$PROJECT_DIR$/bin/Migrate.php" />
+        <option value="$PROJECT_DIR$/migrations/Migration201904111711.php" />
+        <option value="$PROJECT_DIR$/src/User/Domain/User.php" />
+        <option value="$PROJECT_DIR$/src/User/Infrastructure/DbalUserRepository.php" />
+        <option value="$PROJECT_DIR$/src/User/Application/NicknameTakenQuery.php" />
+        <option value="$PROJECT_DIR$/src/User/Infrastructure/DbalNicknameTakenQuery.php" />
+        <option value="$PROJECT_DIR$/src/Dependencies.php" />
+        <option value="$PROJECT_DIR$/src/User/Presentation/RegisterUserFormFactory.php" />
+        <option value="$PROJECT_DIR$/src/User/Presentation/RegisterUserForm.php" />
+        <option value="$PROJECT_DIR$/templates/Login.html.twig" />
+        <option value="$PROJECT_DIR$/src/User/Presentation/LoginController.php" />
+        <option value="$PROJECT_DIR$/src/Routes.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/rdlowrey/auryn" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/tracy/tracy" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
@@ -250,6 +248,16 @@
             <path>
               <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
               <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +356,33 @@
               <item name="MPFL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPFL" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MPFL" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +411,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -406,87 +440,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554937234237</updated>
-      <workItem from="1554937235661" duration="12813000" />
+      <workItem from="1554937235661" duration="15882000" />
+      <workItem from="1555084382208" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12813000" />
+    <option name="totallyTimeSpent" value="16949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="959" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.348964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3565976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" x="840" y="45" width="840" height="1005" id="Terminal" type="WINDOWED" visible="true" weight="0.19967532" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" x="840" y="45" width="840" height="1005" id="Terminal" order="10" type="WINDOWED" weight="0.19967532" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Framework/Rendering/TemplateRenderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/src/Loader/FilesystemLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Framework/Rendering/TwigTemplateRenderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -539,16 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontPage/Infrastructure/MockSubmissionsQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#78#126#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontPage/Infrastructure/MockSubmissionsQuery.php" />
     <entry file="file://$PROJECT_DIR$/src/Framework/Dbal/ConnectionFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -590,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/Migrate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontPage/Infrastructure/DbalSubmissionsQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -604,13 +578,6 @@
           <folding>
             <element signature="e#78#107#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -728,16 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dependencies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="79" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
-          <folding>
-            <element signature="e#32#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Submission/Application/SubmitLink.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -785,20 +742,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Domain/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Application/RegisterUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Application/RegisterUserHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#70#112#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Registration.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_c1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="382" column="24" selection-start-line="382" selection-start-column="24" selection-end-line="382" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Presentation/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="e#73#125#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/Migration201904111711.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/User/Domain/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="735">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#67#89#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/Domain/UserRepository.php">
+    <entry file="file://$PROJECT_DIR$/src/User/Infrastructure/DbalUserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dependencies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
+          <folding>
+            <element signature="e#32#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Presentation/RegisterUserFormFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#73#124#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Application/NicknameTakenQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Infrastructure/DbalNicknameTakenQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/Migrate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Presentation/RegisterUserForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#73#124#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Presentation/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#71#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
     </entry>

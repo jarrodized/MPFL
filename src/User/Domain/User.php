@@ -34,4 +34,24 @@ final class User
             new DateTimeImmutable()
         );
     }
+
+    public function getId(): UuidInterface
+    {
+        return $this->id;
+    }
+
+    public function getNickname(): string
+    {
+        return $this->nickname;
+    }
+
+    public function getPasswordHash(): string
+    {
+        return $this->passwordHash;
+    }
+
+    public function getCreationDate(): DateTimeImmutable
+    {
+        return $this->creationDate;
+    }
 }

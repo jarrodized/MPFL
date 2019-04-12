@@ -11,6 +11,10 @@ use SocialNews\Framework\Csrf\TokenStorage;
 use SocialNews\Framework\Csrf\SymfonySessionTokenStorage;
 use SocialNews\Submission\Domain\SubmissionRepository;
 use SocialNews\Submission\Infrastructure\DbalSubmissionRepository;
+use SocialNews\User\Domain\UserRepository;
+use SocialNews\User\Infrastructure\DbalUserRepository;
+use SocialNews\User\Application\NicknameTakenQuery;
+use SocialNews\User\Infrastructure\DbalNicknameTakenQuery;
 
 use Auryn\Injector;
 use Doctrine\DBAL\Connection;
@@ -49,5 +53,9 @@ $injector->alias(TokenStorage::class, SymfonySessionTokenStorage::class);
 $injector->alias(SessionInterface::class, Session::class);
 
 $injector->alias(SubmissionRepository::class, DbalSubmissionRepository::class);
+
+$injector->alias(UserRepository::class, DbalUserRepository::class);
+
+$injector->alias(NicknameTakenQuery::class, DbalNicknameTakenQuery::class);
 
 return $injector;
